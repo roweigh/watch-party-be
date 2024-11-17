@@ -4,8 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node . netlify-lambda serve src",
-    "build": "node . netlify-lambda build src"
+    "start": "node .",
+    "build": "node .", 
+    "test" : "node . netlify-lambda serve src",
+    "test-two": "netlify-lambda serve src node ."
   },
   "keywords": [],
   "author": "",
