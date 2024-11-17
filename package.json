@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node . netlify-lambda serve src",
-    "build": "netlify-lambda build src"
+    "build": "node . netlify-lambda build src"
   },
   "keywords": [],
   "author": "",
